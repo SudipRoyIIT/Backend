@@ -5,9 +5,9 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const { DB_USER, DB_PASS } = process.env;
-
+console.log(process.env)
 // Ensure that the environment variable DB_URL is defined in your .env file
-const url = `mongodb+srv://${DB_USER}:${DB_PASS}@codasr.0mfqyji.mongodb.net/?retryWrites=true&w=majority`;
+const url = `mongodb+srv://${DB_USER}:${DB_PASS}@codasr.0mfqyji.mongodb.net/`;
 
 const connect = async () => {
   try {
