@@ -75,7 +75,7 @@ import AdminAutheatioaction from "../middleware/authFromTokenForAdmin/index.js";
 
 const router = express.Router();
 
- router.use(AdminAutheatioaction);
+ //router.use(AdminAutheatioaction);
 router.use(bodyParser.urlencoded({ extended: false }));
 router.use(bodyParser.json());
 
