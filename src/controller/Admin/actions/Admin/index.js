@@ -27,8 +27,8 @@ import awardsandtalks from "../../../../model/Teachings/awardsAndHonour.js";
 
 
 const router = express.Router();
-import authentication from "../../../../middleware/authFromTokenForAdmin/index.js";
-router.use(authentication);
+// import authentication from "../../../../middleware/authFromTokenForAdmin/index.js";
+// router.use(authentication);
 
 const app = express();
 app.use(bodyParser.json());
