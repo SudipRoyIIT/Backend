@@ -11,7 +11,7 @@ import cors from 'cors';
 
 const app = express();
 
-connect
+connect();
 // cors 
 app.use(cors());
 
